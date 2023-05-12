@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  background: linear-gradient(#4c94ec, #3c8636);
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #3c8636;
+  margin-bottom: 10px;
+}
+
+#bday-age {
+  background: #3c8636;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#bday-date {
+  margin: 0;
+  background: #3c8636;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/happyforyou.png");
+}
+
+#gift-img-reaction:hover {
+  background-image: url("images/bsdk.jpg");
+}
+
+#gift-img-beta:hover {
+  background-image: url("images/beta.jpg");
+}
+
+#gift-img-shy:hover {
+  background-image: url("images/shy.jpg");
+}
+
+#gift-img-wari:hover {
+  background-image: url("images/SK.jpeg");
+}
+
+#gift-img-hina:hover {
+  background-image: url("images/hinata.jpg");
+}
+
+#gift-img-hbd:hover {
+  background-image: url("images/bestie.jpg");
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/fingeretta.jpg");
+}
+
+a {
+  color: white;
+}
